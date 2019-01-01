@@ -44,7 +44,7 @@ Thumbs.db
 
 ```json
 {
-    "name": "wooppay/yii2-extname",
+    "name": "example/yii2-extname",
     "type": "yii2-extension",
     "minimum-stability": "dev",
     "autoload": {
@@ -67,13 +67,13 @@ Thumbs.db
 В сегменте `require` добавляем следующее:
 
 ```json
-"wooppay/yii2-extname": "1.3.*"
+"example/yii2-extname": "1.3.*"
 ```
 
 Если хотите сопровождать пакет:
 
 ```json
-"wooppay/yii2-extname": "dev-master"
+"example/yii2-extname": "dev-master"
 ```
 
 При этом вы всегда будете иметь самую свежую версию пакета и сможете комитить и отправлять изменеия.
@@ -83,7 +83,7 @@ Thumbs.db
 ```json
 {
 		"type": "git",
-		"url": "http://git.wooppay.local/yii2woop/yii2-service.git"
+		"url": "http://git.example.local/yii2example/yii2-service.git"
 }
 ```
 Это указывает, из какого репозитория загружать расширение.

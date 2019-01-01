@@ -56,7 +56,7 @@ class VersionHelper {
 	];
 	
 	private static $remotes = [
-		'git.wooppay.local' => [
+		'git.example.local' => [
 			'uri' => [
 				'newTag' => '{package}/tags/new',
 				'viewCommit' => '{package}/commit/{hash}',
