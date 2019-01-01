@@ -38,8 +38,9 @@ return [
         					'author' => 'Author name',
         					'email' => 'author@email.com',
         					'owners' => [
-        						'yii2lab',
-        						'yii2module',
+					            'yii2bundle',
+        						/*'yii2lab',
+        						'yii2module',*/
         					],
         				],
         			],

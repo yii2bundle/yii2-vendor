@@ -51,10 +51,10 @@ class Domain extends \yii2lab\domain\Domain {
 					'author' => 'Yamshikov Vitaliy',
 					'email' => 'theyamshikov@yandex.ru',
 					'owners' => [
-						'yii2lab',
+					    'yii2bundle',
+						/*'yii2lab',
 						'yii2module',
-						'yii2woop',
-						'yii2guide',
+						'yii2guide',*/
 					],
 				],
 				'pretty',
