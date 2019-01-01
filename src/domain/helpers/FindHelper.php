@@ -42,7 +42,7 @@ class FindHelper {
 	private static function isDomainClass($domainClass) {
 		$exclude = [
 			'yii2module\\vendor\\domain\\data\\src\\domain\\Domain',
-			'yii2woop\\common\\bundle\\summary\\domain\\Domain',
+			//'yii2woop\\common\\bundle\\summary\\domain\\Domain',
 		];
 		if(in_array($domainClass, $exclude)) {
 			return false;
